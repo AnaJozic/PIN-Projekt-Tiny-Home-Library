@@ -1,0 +1,29 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  height: 100vh;
+  background: url(/topography.svg);
+  background-size: cover;
+}
+
+.rounded-rectangle {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 30px; /* Padding inside the box */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for effect */
+    margin: 20px 0; /* Margin to space the box from other content */
+}
